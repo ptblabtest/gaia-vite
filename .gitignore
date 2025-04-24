@@ -32,6 +32,6 @@ dist-ssr
 *.sw?
 
 # Dev source (excluded in prod)
-src/
-public/
-cypress/
+src
+public
+cypress
