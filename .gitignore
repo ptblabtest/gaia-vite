@@ -10,12 +10,6 @@ lerna-debug.log*
 # Dependencies
 node_modules
 
-# Vite build output (un-ignore!)
-# ❌ REMOVE or comment this line
-# dist
-# ✅ Allow dist to be committed
-!dist/
-
 # Dev-only output
 dist-ssr
 *.local
@@ -35,3 +29,12 @@ dist-ssr
 src
 public
 cypress
+
+tailwind.config.*
+vite.config.*
+jsconfig.*
+*.local
+eslint.config.js
+cypress.config.js
+
+!dist/
